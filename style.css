@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f4f6;
+  color: #333;
+}
+
+.weather-app {
+  max-width: 900px;
+  margin: 2rem auto;
+  text-align: center;
+  background: rgb(167, 201, 233);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(42, 45, 230, 0.2);
+}
+
+h1 {
+  margin-bottom: 1rem;
+  color: #007BFF;
+}
+
+.search-box {
+  margin-bottom: 2rem;
+}
+
+.search-box input {
+  padding: 0.5rem;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-box button {
+  padding: 0.5rem 1rem;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.weather-info, .forecast-info {
+  margin-top: 1rem;
+}
+
+.weather-info h2, .forecast-info h3 {
+  margin: 0.5rem 0;
+}
+
+.forecast-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1rem;
+  overflow-x: auto;
+  background: linear-gradient(to right, #0067c5, #4ca9e7);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.forecast-day {
+  background: #ffffff;
+  padding: 1rem;
+  border-radius: 8px;
+  min-width: 150px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  flex-shrink: 0;
+  border: 2px solid transparent;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.forecast-day:nth-child(odd) {
+  background: #dfeffe;
+}
+
+.forecast-day:nth-child(even) {
+  background: #eff7ff;
+}
+
+.forecast-day:hover {
+  transform: scale(1.1);
+  border-color: #007BFF;
+}
+
+.forecast-day img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 0.5rem;
+  filter: brightness(0.7) contrast(1.2) saturate(1.5);
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  padding: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.forecast-day h4 {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.forecast-day p {
+  margin: 0.3rem 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
