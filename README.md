@@ -1,6 +1,6 @@
 # Weather-App  - 5-Day Forecast
 
-Description  
+# Description  
 This is a simple weather app that allows you to get the current weather and a 5-day weather forecast for any city.  
 You simply need to input the city's name, and it will display:  
 - Current temperature, humidity, and weather description.  
@@ -10,7 +10,7 @@ The weather data is fetched from the OpenWeatherMap API, so we need an API key t
 
 ---
 
-Files  
+# Files  
 The project includes the following files:  
 1. index.html: The HTML structure for the weather app.  
 2. script.js : The JavaScript file that fetches data from the OpenWeatherMap API and displays the current weather and forecast.  
@@ -18,7 +18,7 @@ The project includes the following files:
 
 ---
 
-How to Run  
+# How to Run  
 
 1. Obtain an OpenWeatherMap API Key:  
 - Sign up for a free account at [OpenWeatherMap](https://openweathermap.org/).  
@@ -39,7 +39,7 @@ const apiKey = 'your_api_key_here'; // Replace with your OpenWeatherMap API Key
 
 ---
 
-Using the Weather App  
+# Using the Weather App  
 
 1. Enter the name of any city in the input field.  
 2. Click the Search button.  
@@ -49,6 +49,6 @@ Using the Weather App
 
 ---
 
-Conclusion  
+# Conclusion  
 Now, you can easily run the weather app by opening the index.html file in any browser. Simply enter a city name, and you'll get the current weather as well as a 5-day forecast.
 
